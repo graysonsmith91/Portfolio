@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+#navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background-color: #14A76C;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 15px 25px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+
+#navbar a:hover {
+  color: black;
+  transition: .5s;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-image: linear-gradient(to bottom right, black, #98989C);
+}
+
+#about {
+  font-size: 36px;
+  text-align: center;
+  padding: 50vh;
+}
+
+#welcome-sub-head {
+  font-size: 28px;
+  font-style: italic;
+}
+
+#projects {
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 150px;
+  background-color: #004b49;
+}
+
+#projects-header {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+  
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+.project-caption {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+#contact {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 45vh;
+  padding-bottom: 20vh;
+  background-color: #1C3334;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 1.5rem;
+}
+
+i {
+padding: 5px;
+}
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  background-color: #272727;
+  padding: 30px 15px 30px 30px;
+  text-align: center;
+  border-top: solid;
+  border-color: black;
+}
+
+@media (max-width: 750px) {
+  .row {
+    flex-direction: column;
+  }
